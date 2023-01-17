@@ -18,6 +18,7 @@ namespace HackerRank.Solutions.Library
             {
                 { HackerRankProblem.SolveMeFirst, new SolveMeFirst() },
                 { HackerRankProblem.SimpleArraySum, new SimpleArraySum() },
+                { HackerRankProblem.VeryBigSum, new VeryBigSum() },
             };
         }
     }
