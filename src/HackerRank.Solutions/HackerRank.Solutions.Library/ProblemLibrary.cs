@@ -1,4 +1,5 @@
 ﻿using HackerRank.Solutions.Contracts;
+using HackerRank.Solutions.Library.Implementation;
 using HackerRank.Solutions.Library.Warnup;
 using HackerRank.Solutions.Shared;
 
@@ -24,7 +25,8 @@ namespace HackerRank.Solutions.Library
                 { HackerRankProblem.Staircase, new Staircase() },
                 { HackerRankProblem.MinMaxSum, new MinMaxSum() },
                 { HackerRankProblem.BirthdayCakeCandles, new BirthdayCakeCandles() },
-                { HackerRankProblem.TimeConversion, new TimeConversion() }
+                { HackerRankProblem.TimeConversion, new TimeConversion() },
+                { HackerRankProblem.GradingStudents, new GradingStudents() }
             };
         }
     }

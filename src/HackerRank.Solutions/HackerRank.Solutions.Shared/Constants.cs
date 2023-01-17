@@ -13,6 +13,7 @@ namespace HackerRank.Solutions.Shared
         MinMaxSum = 7,
         BirthdayCakeCandles = 8,
         TimeConversion = 9,
+        GradingStudents = 10,
     }
 
     public enum ProgramOperations
