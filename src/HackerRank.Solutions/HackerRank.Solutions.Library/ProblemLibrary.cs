@@ -21,6 +21,7 @@ namespace HackerRank.Solutions.Library
                 { HackerRankProblem.VeryBigSum, new VeryBigSum() },
                 { HackerRankProblem.DiagonalDifference, new DiagonalDifference() },
                 { HackerRankProblem.PlusMinus, new PlusMinus() },
+                { HackerRankProblem.Staircase, new Staircase() },
             };
         }
     }
