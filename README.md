@@ -1,20 +1,21 @@
-# Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+# HackerRank Solutions - C#
 
-# Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+The repository contains the implementations for the HackerRank problems. Follow the instructions below to run the console application and execute the solutions.
 
-# Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+## Running the Solution
 
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
+1. Set the `HackerRank.Solutions.Runner` project as the startup project.
+2. Build and run the project.
+3. Select the problem title to execute and get the answer.
 
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+## Solution Structure
+
+The `HackerRank.Solutions.Library` contains the implementations. Each solution implements the `ISolution` interface that contains the contract for `void Execute()` method that is used to setup test data and exexute the solution and prints out the output.
+The implementation for the problem is contained inside of the `Answer()` method in the class.
+
+### Adding a New Implementation
+
+1. Add a new file class to the `HackerRank.Solution.Library` project and inherit from the `BaseSolution` class and implement the `ISolution` interface.
+2. Implement the class by adding the `Answer()` method with the solution, `void Execute()` method with the test data, execution and printing the result and set the `Title` property with the display name for the solution and `Id` property with the `HackerRankProblem` enum
+3. Add a new enum entry to the `HackerRankProblem` enum in the `HackerRank.Solution.Shared` project with the int value.
+4. Add a new entry to the `Dictionary<HackerRankProblem, ISolution>` dictionary in the `ProblemLibrary` class constructor to include the implementation in the program.
