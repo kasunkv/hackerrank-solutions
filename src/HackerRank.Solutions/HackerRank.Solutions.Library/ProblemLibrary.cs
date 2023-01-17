@@ -23,6 +23,7 @@ namespace HackerRank.Solutions.Library
                 { HackerRankProblem.PlusMinus, new PlusMinus() },
                 { HackerRankProblem.Staircase, new Staircase() },
                 { HackerRankProblem.MinMaxSum, new MinMaxSum() },
+                { HackerRankProblem.BirthdayCakeCandles, new BirthdayCakeCandles() }
             };
         }
     }

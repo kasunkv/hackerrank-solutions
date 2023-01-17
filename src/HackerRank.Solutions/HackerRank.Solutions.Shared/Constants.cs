@@ -11,6 +11,7 @@ namespace HackerRank.Solutions.Shared
         PlusMinus = 5,
         Staircase = 6,
         MinMaxSum = 7,
+        BirthdayCakeCandles = 8,
     }
 
     public enum ProgramOperations
