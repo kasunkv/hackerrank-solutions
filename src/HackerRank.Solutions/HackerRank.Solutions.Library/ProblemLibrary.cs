@@ -22,6 +22,7 @@ namespace HackerRank.Solutions.Library
                 { HackerRankProblem.DiagonalDifference, new DiagonalDifference() },
                 { HackerRankProblem.PlusMinus, new PlusMinus() },
                 { HackerRankProblem.Staircase, new Staircase() },
+                { HackerRankProblem.MinMaxSum, new MinMaxSum() },
             };
         }
     }
