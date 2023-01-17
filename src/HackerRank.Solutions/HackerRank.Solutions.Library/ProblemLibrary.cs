@@ -17,6 +17,7 @@ namespace HackerRank.Solutions.Library
             Problems = new Dictionary<HackerRankProblem, ISolution>
             {
                 { HackerRankProblem.SolveMeFirst, new SolveMeFirst() },
+                { HackerRankProblem.SimpleArraySum, new SimpleArraySum() },
             };
         }
     }
