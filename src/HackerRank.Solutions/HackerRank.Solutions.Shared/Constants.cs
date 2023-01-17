@@ -12,6 +12,7 @@ namespace HackerRank.Solutions.Shared
         Staircase = 6,
         MinMaxSum = 7,
         BirthdayCakeCandles = 8,
+        TimeConversion = 9,
     }
 
     public enum ProgramOperations
