@@ -26,7 +26,8 @@ namespace HackerRank.Solutions.Library
                 { HackerRankProblem.MinMaxSum, new MinMaxSum() },
                 { HackerRankProblem.BirthdayCakeCandles, new BirthdayCakeCandles() },
                 { HackerRankProblem.TimeConversion, new TimeConversion() },
-                { HackerRankProblem.GradingStudents, new GradingStudents() }
+                { HackerRankProblem.GradingStudents, new GradingStudents() },
+                { HackerRankProblem.NumberLineJumps, new NumberLineJumps() }
             };
         }
     }

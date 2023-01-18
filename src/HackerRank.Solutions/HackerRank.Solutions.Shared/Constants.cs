@@ -14,6 +14,7 @@ namespace HackerRank.Solutions.Shared
         BirthdayCakeCandles = 8,
         TimeConversion = 9,
         GradingStudents = 10,
+        NumberLineJumps = 11,
     }
 
     public enum ProgramOperations
